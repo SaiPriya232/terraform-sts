@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-springboot-app1
-        image: containerregistry19999.azurecr.io/kparunsagar/pipeline-springboot-aks:#{Build.BuildId}#
+        image: priyacontainer123.azurecr.io/SaiPriya232/terraform-sts:#{Build.BuildId}#
         imagePullPolicy: Always
         ports:
         - containerPort: 8085
